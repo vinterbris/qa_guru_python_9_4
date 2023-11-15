@@ -44,7 +44,8 @@ def test_circle():
     length = 2 * math.pi * r
     assert length == 144.51326206513048
 
-    print("\n", f"area = {area}, length = {length}")
+    # print("\n", f"area = {area}, length = {length}")
+    print("\n", f"{area=}, {length=}")
 
 
 def test_random_list():
