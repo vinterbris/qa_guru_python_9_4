@@ -19,11 +19,11 @@ def test_rectangle():
     b = 20
 
     # TODO сосчитайте периметр
-    perimeter = 0
+    perimeter = a * 2 + b * 2
     assert perimeter == 60
 
     # TODO сосчитайте площадь
-    area = 0
+    area = a * b
     assert area == 200
 
 
