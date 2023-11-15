@@ -50,7 +50,8 @@ def test_random_list():
     """
 
     # TODO создайте список
-    l = []
+    l = [100, 23, 5, 65, 99, 1, 35, 74, 41, 88]
+    l.sort()
     assert len(l) == 10
     assert l[0] < l[-1]
 
